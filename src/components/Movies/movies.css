@@ -1,0 +1,33 @@
+.movie-container {
+	width: 100%;
+	background-color: #262b36;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.movie-card {
+	flex-shrink: 0;
+	width: 135px;
+	height: 100%;
+	margin-left: 10px;
+	box-shadow: 1px 1px 10px #222;
+	border-radius: 5px;
+	margin-top: 10px;
+	/* animation-name: movieanimation;
+	animation-duration: 3s;
+	animation-iteration-count: 1; */
+}
+.movie-card-body {
+	width: 100%;
+	height: 25%;
+}
+.movie-card-body p {
+	padding: 5px;
+	margin: 0;
+}
+.movie-card-body p:first-child {
+	color: #fff;
+}
+.movie-card-body p:last-child {
+	color: #ccc;
+}
